@@ -35,5 +35,15 @@ namespace uygulama
                 listBox1.Items.Add(i.ToString());
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int i = 100;
+            while (i>=0)
+            {
+                listBox2.Items.Add(i);
+                i -= 10;// i-=10;   i = i - 10;
+            }
+        }
     }
 }
