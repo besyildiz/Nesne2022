@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{765F8937-CEA6-403A-A52C-A0064EC2C1A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>uygulama</RootNamespace>
+    <AssemblyName>uygulama</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm10.Designer.cs">
+      <DependentUpon>frm10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm11.Designer.cs">
+      <DependentUpon>frm11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm12.Designer.cs">
+      <DependentUpon>frm12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm13.Designer.cs">
+      <DependentUpon>frm13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm14.Designer.cs">
+      <DependentUpon>frm14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm2.Designer.cs">
+      <DependentUpon>frm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm22.Designer.cs">
+      <DependentUpon>frm22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm3.Designer.cs">
+      <DependentUpon>frm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm4.Designer.cs">
+      <DependentUpon>frm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm5.Designer.cs">
+      <DependentUpon>frm5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm500.Designer.cs">
+      <DependentUpon>frm500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm6.Designer.cs">
+      <DependentUpon>frm6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm7.Designer.cs">
+      <DependentUpon>frm7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm8.Designer.cs">
+      <DependentUpon>frm8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm9.Designer.cs">
+      <DependentUpon>frm9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLamba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLamba.Designer.cs">
+      <DependentUpon>frmLamba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZeyneb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZeyneb.Designer.cs">
+      <DependentUpon>frmZeyneb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm10.resx">
+      <DependentUpon>frm10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm11.resx">
+      <DependentUpon>frm11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm12.resx">
+      <DependentUpon>frm12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm13.resx">
+      <DependentUpon>frm13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm14.resx">
+      <DependentUpon>frm14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm2.resx">
+      <DependentUpon>frm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm22.resx">
+      <DependentUpon>frm22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm3.resx">
+      <DependentUpon>frm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm4.resx">
+      <DependentUpon>frm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm5.resx">
+      <DependentUpon>frm5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm500.resx">
+      <DependentUpon>frm500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm6.resx">
+      <DependentUpon>frm6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm7.resx">
+      <DependentUpon>frm7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm8.resx">
+      <DependentUpon>frm8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm9.resx">
+      <DependentUpon>frm9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLamba.resx">
+      <DependentUpon>frmLamba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZeyneb.resx">
+      <DependentUpon>frmZeyneb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\uygulama.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm2.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm22.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm3.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm5.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm500.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm6.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm7.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm8.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frm9.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.frmLamba.resources" />
+    <EmbeddedResource Include="obj\Debug\uygulama.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\uygulama.exe.config" />
+    <None Include="bin\Debug\uygulama.vshost.exe.config" />
+    <None Include="bin\Debug\uygulama.vshost.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\uygulama.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\uygulama.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\uygulama.exe" />
+    <Content Include="bin\Debug\uygulama.pdb" />
+    <Content Include="bin\Debug\uygulama.vshost.exe" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\uygulama.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\uygulama.exe" />
+    <Content Include="obj\Debug\uygulama.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
