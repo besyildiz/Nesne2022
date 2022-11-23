@@ -45,5 +45,39 @@ namespace uygulama
                 i -= 10;// i-=10;   i = i - 10;
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int i = 100;
+            do
+            {
+                listBox3.Items.Add(i);
+                i -= 10; 
+            } while (i >= 0);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                if (i==11)
+                 break;
+                  else listBox4.Items.Add(i.ToString());    
+                 
+              
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                if (i == 11)
+                    continue;
+                else listBox5.Items.Add(i.ToString());
+
+
+            }
+        }
     }
 }
