@@ -16,7 +16,7 @@ namespace uygulama
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmZeyneb());
+            Application.Run(new frm15());
         }
     }
 }
