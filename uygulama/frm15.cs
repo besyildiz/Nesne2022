@@ -22,8 +22,8 @@ namespace uygulama
 
             //    rt1.Text = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40";
 
-            for (int i = 0; i <= 1000; i=i+10)
-                rt1.Text = rt1.Text + " " +i.ToString();
+            for (int i = 0; i <= 1000; i = i + 10)
+                rt1.Text = rt1.Text + " " + i.ToString();
 
 
         }
@@ -39,7 +39,7 @@ namespace uygulama
         private void button3_Click(object sender, EventArgs e)
         {
             int i = 100;
-            while (i>=0)
+            while (i >= 0)
             {
                 listBox2.Items.Add(i);
                 i -= 10;// i-=10;   i = i - 10;
@@ -52,7 +52,7 @@ namespace uygulama
             do
             {
                 listBox3.Items.Add(i);
-                i -= 10; 
+                i -= 10;
             } while (i >= 0);
         }
 
@@ -60,11 +60,11 @@ namespace uygulama
         {
             for (int i = 0; i < 20; i++)
             {
-                if (i==11)
-                 break;
-                  else listBox4.Items.Add(i.ToString());    
-                 
-              
+                if (i == 11)
+                    break;
+                else listBox4.Items.Add(i.ToString());
+
+
             }
         }
 
@@ -79,5 +79,41 @@ namespace uygulama
 
             }
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            int i = -10;
+
+
+
+            while (true)
+            {
+                i++;
+            }
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            int i = 3;
+            int j = 0;
+
+
+
+            try
+            {
+                MessageBox.Show((i / j).ToString());
+            }
+            catch (Exception w)
+            {
+                MessageBox.Show(w.Message);
+            }
+            finally
+            {
+                //burası her türlü çalışıyor
+            }
+
+
+            }
+        }
     }
-}
