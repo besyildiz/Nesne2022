@@ -51,3 +51,4 @@ E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygul
 E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.frmZeyneb.resources
 E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.Properties.Resources.resources
 E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.csproj.GenerateResource.Cache
+E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.class1.resources
