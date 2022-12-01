@@ -21,6 +21,9 @@ namespace uygulama
         {
             Dikdortgen d1 = new Dikdortgen(4,5);
             Daire daire = new Daire(6);
+            Daire d2 = new Daire(7);
+         
+         
             listBox1.Items.Add("Dikdörtgenin çevresi-->"+d1.CevreHesaplama().ToString());
             listBox1.Items.Add("Dikdörtgenin alanı-->" + d1.AlanHesaplama().ToString());
             listBox1.Items.Add("Dairenin çevresi-->" + daire.CevreHesaplama().ToString());
@@ -47,7 +50,7 @@ namespace uygulama
 
             public int CevreHesaplama()
             {
-                return 2 *( a+ b);
+                return 2 * (a + b);
             }
 
         }
@@ -59,6 +62,8 @@ namespace uygulama
         {
 
             private int r;
+
+           
 
             public Daire(int r)
             {

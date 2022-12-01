@@ -16,7 +16,7 @@ namespace uygulama
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new class1());
+            Application.Run(new class2());
         }
     }
 }
