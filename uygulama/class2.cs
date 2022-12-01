@@ -45,9 +45,9 @@ namespace uygulama
             listBox1.Items.Add("Üçgenin çevresi--> " + ucgen.Cevre.ToString());
         }
 
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
-
-
-
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace uygulama
 {
-    partial class class2
+    partial class class4
     {
         /// <summary>
         /// Required designer variable.
@@ -36,32 +36,31 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(45, 109);
+            this.listBox1.Location = new System.Drawing.Point(26, 100);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(503, 212);
-            this.listBox1.TabIndex = 3;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBox1.TabIndex = 7;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(45, 34);
+            this.button1.Location = new System.Drawing.Point(26, 25);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(503, 69);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 6;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // class2
+            // class4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 383);
+            this.ClientSize = new System.Drawing.Size(608, 339);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
-            this.Name = "class2";
+            this.Name = "class4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "class2";
+            this.Text = "class4";
             this.ResumeLayout(false);
 
         }
