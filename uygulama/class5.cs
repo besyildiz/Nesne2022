@@ -28,6 +28,9 @@ namespace uygulama
             SayiIslemleri si = new SayiIslemleri();
             // int toplam = si.Topla(5, 10, 15);
             int toplam = si.Topla(sayi2: 10, sayi3: 15, sayi1: 5);
+
+
+             
             listBox1.Items.Add("Toplam: "+ toplam);
         }
     }

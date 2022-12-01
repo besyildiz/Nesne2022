@@ -20,14 +20,17 @@ namespace uygulama
         {
             public int Toplam(params int[] sayilar)
             {
+
                 int toplam = 0;
-                foreach (var s in sayilar)
+                foreach (int s in sayilar)
                 {
-                    toplam += s;
+                    toplam =toplam+s;
                 }
                 return toplam;
             }
         }
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             SayiIslemleri si = new SayiIslemleri();
