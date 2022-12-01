@@ -70,6 +70,18 @@
     <Compile Include="class4.Designer.cs">
       <DependentUpon>class4.cs</DependentUpon>
     </Compile>
+    <Compile Include="class5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="class5.Designer.cs">
+      <DependentUpon>class5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="class6.Designer.cs">
+      <DependentUpon>class6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +212,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="class4.resx">
       <DependentUpon>class4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="class5.resx">
+      <DependentUpon>class5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="class6.resx">
+      <DependentUpon>class6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
