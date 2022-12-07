@@ -57,3 +57,8 @@ E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygul
 E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.class4.resources
 E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.class5.resources
 E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.class6.resources
+E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.ornek_3_7_1.resources
+E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.frm_3_7_4.resources
+E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.frm_3_7_5.resources
+E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.frm_3_8_1.resources
+E:\arşivv\uzak\2022-2023\ders_ici_dokumanlar\Nesne2022\uygulama\obj\Debug\uygulama.frm_3_8_2.resources
