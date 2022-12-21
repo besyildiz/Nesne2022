@@ -46,154 +46,185 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="class1.cs">
+    <Compile Include="BenimSinifim.cs" />
+    <Compile Include="frmAbstract.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class1.Designer.cs">
+    <Compile Include="frmAbstract.Designer.cs">
+      <DependentUpon>frmAbstract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaskaDosya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaskaDosya.Designer.cs">
+      <DependentUpon>frmBaskaDosya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGolgeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGolgeleme.Designer.cs">
+      <DependentUpon>frmGolgeleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInterface.Designer.cs">
+      <DependentUpon>frmInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMiras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMiras.Designer.cs">
+      <DependentUpon>frmMiras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oncekiler\class1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oncekiler\class1.Designer.cs">
       <DependentUpon>class1.cs</DependentUpon>
     </Compile>
-    <Compile Include="class2.cs">
+    <Compile Include="oncekiler\class2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class2.Designer.cs">
+    <Compile Include="oncekiler\class2.Designer.cs">
       <DependentUpon>class2.cs</DependentUpon>
     </Compile>
-    <Compile Include="class3.cs">
+    <Compile Include="oncekiler\class3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class3.Designer.cs">
+    <Compile Include="oncekiler\class3.Designer.cs">
       <DependentUpon>class3.cs</DependentUpon>
     </Compile>
-    <Compile Include="class4.cs">
+    <Compile Include="oncekiler\class4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class4.Designer.cs">
+    <Compile Include="oncekiler\class4.Designer.cs">
       <DependentUpon>class4.cs</DependentUpon>
     </Compile>
-    <Compile Include="class5.cs">
+    <Compile Include="oncekiler\class5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class5.Designer.cs">
+    <Compile Include="oncekiler\class5.Designer.cs">
       <DependentUpon>class5.cs</DependentUpon>
     </Compile>
-    <Compile Include="class6.cs">
+    <Compile Include="oncekiler\class6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="class6.Designer.cs">
+    <Compile Include="oncekiler\class6.Designer.cs">
       <DependentUpon>class6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="oncekiler\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="oncekiler\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm10.cs">
+    <Compile Include="oncekiler\frm10.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm10.Designer.cs">
+    <Compile Include="oncekiler\frm10.Designer.cs">
       <DependentUpon>frm10.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm11.cs">
+    <Compile Include="oncekiler\frm11.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm11.Designer.cs">
+    <Compile Include="oncekiler\frm11.Designer.cs">
       <DependentUpon>frm11.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm12.cs">
+    <Compile Include="oncekiler\frm12.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm12.Designer.cs">
+    <Compile Include="oncekiler\frm12.Designer.cs">
       <DependentUpon>frm12.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm13.cs">
+    <Compile Include="oncekiler\frm13.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm13.Designer.cs">
+    <Compile Include="oncekiler\frm13.Designer.cs">
       <DependentUpon>frm13.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm14.cs">
+    <Compile Include="oncekiler\frm14.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm14.Designer.cs">
+    <Compile Include="oncekiler\frm14.Designer.cs">
       <DependentUpon>frm14.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm15.cs">
+    <Compile Include="oncekiler\frm15.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm15.Designer.cs">
+    <Compile Include="oncekiler\frm15.Designer.cs">
       <DependentUpon>frm15.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm2.cs">
+    <Compile Include="oncekiler\frm2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm2.Designer.cs">
+    <Compile Include="oncekiler\frm2.Designer.cs">
       <DependentUpon>frm2.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm22.cs">
+    <Compile Include="oncekiler\frm22.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm22.Designer.cs">
+    <Compile Include="oncekiler\frm22.Designer.cs">
       <DependentUpon>frm22.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm3.cs">
+    <Compile Include="oncekiler\frm3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm3.Designer.cs">
+    <Compile Include="oncekiler\frm3.Designer.cs">
       <DependentUpon>frm3.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm4.cs">
+    <Compile Include="oncekiler\frm4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm4.Designer.cs">
+    <Compile Include="oncekiler\frm4.Designer.cs">
       <DependentUpon>frm4.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm5.cs">
+    <Compile Include="oncekiler\frm5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm5.Designer.cs">
+    <Compile Include="oncekiler\frm5.Designer.cs">
       <DependentUpon>frm5.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm500.cs">
+    <Compile Include="oncekiler\frm500.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm500.Designer.cs">
+    <Compile Include="oncekiler\frm500.Designer.cs">
       <DependentUpon>frm500.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm6.cs">
+    <Compile Include="oncekiler\frm6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm6.Designer.cs">
+    <Compile Include="oncekiler\frm6.Designer.cs">
       <DependentUpon>frm6.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm7.cs">
+    <Compile Include="oncekiler\frm7.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm7.Designer.cs">
+    <Compile Include="oncekiler\frm7.Designer.cs">
       <DependentUpon>frm7.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm8.cs">
+    <Compile Include="oncekiler\frm8.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm8.Designer.cs">
+    <Compile Include="oncekiler\frm8.Designer.cs">
       <DependentUpon>frm8.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm9.cs">
+    <Compile Include="oncekiler\frm9.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm9.Designer.cs">
+    <Compile Include="oncekiler\frm9.Designer.cs">
       <DependentUpon>frm9.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLamba.cs">
+    <Compile Include="oncekiler\frmLamba.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLamba.Designer.cs">
+    <Compile Include="oncekiler\frmLamba.Designer.cs">
       <DependentUpon>frmLamba.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmZeyneb.cs">
+    <Compile Include="oncekiler\frmZeyneb.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmZeyneb.Designer.cs">
+    <Compile Include="oncekiler\frmZeyneb.Designer.cs">
       <DependentUpon>frmZeyneb.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_3_7_4.cs">
@@ -202,120 +233,135 @@
     <Compile Include="frm_3_7_4.Designer.cs">
       <DependentUpon>frm_3_7_4.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_3_7_5.cs">
+    <Compile Include="oncekiler\frm_3_7_5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_3_7_5.Designer.cs">
+    <Compile Include="oncekiler\frm_3_7_5.Designer.cs">
       <DependentUpon>frm_3_7_5.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_3_8_1.cs">
+    <Compile Include="oncekiler\frm_3_8_1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_3_8_1.Designer.cs">
+    <Compile Include="oncekiler\frm_3_8_1.Designer.cs">
       <DependentUpon>frm_3_8_1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_3_8_2.cs">
+    <Compile Include="oncekiler\frm_3_8_2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_3_8_2.Designer.cs">
+    <Compile Include="oncekiler\frm_3_8_2.Designer.cs">
       <DependentUpon>frm_3_8_2.cs</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="ornek_3_7_1.cs">
+    <Compile Include="oncekiler\ornek_3_7_1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ornek_3_7_1.Designer.cs">
+    <Compile Include="oncekiler\ornek_3_7_1.Designer.cs">
       <DependentUpon>ornek_3_7_1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="class1.resx">
+    <EmbeddedResource Include="frmAbstract.resx">
+      <DependentUpon>frmAbstract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaskaDosya.resx">
+      <DependentUpon>frmBaskaDosya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGolgeleme.resx">
+      <DependentUpon>frmGolgeleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInterface.resx">
+      <DependentUpon>frmInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMiras.resx">
+      <DependentUpon>frmMiras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oncekiler\class1.resx">
       <DependentUpon>class1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="class2.resx">
+    <EmbeddedResource Include="oncekiler\class2.resx">
       <DependentUpon>class2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="class3.resx">
+    <EmbeddedResource Include="oncekiler\class3.resx">
       <DependentUpon>class3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="class4.resx">
+    <EmbeddedResource Include="oncekiler\class4.resx">
       <DependentUpon>class4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="class5.resx">
+    <EmbeddedResource Include="oncekiler\class5.resx">
       <DependentUpon>class5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="class6.resx">
+    <EmbeddedResource Include="oncekiler\class6.resx">
       <DependentUpon>class6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="oncekiler\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm10.resx">
+    <EmbeddedResource Include="oncekiler\frm10.resx">
       <DependentUpon>frm10.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm11.resx">
+    <EmbeddedResource Include="oncekiler\frm11.resx">
       <DependentUpon>frm11.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm12.resx">
+    <EmbeddedResource Include="oncekiler\frm12.resx">
       <DependentUpon>frm12.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm13.resx">
+    <EmbeddedResource Include="oncekiler\frm13.resx">
       <DependentUpon>frm13.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm14.resx">
+    <EmbeddedResource Include="oncekiler\frm14.resx">
       <DependentUpon>frm14.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm15.resx">
+    <EmbeddedResource Include="oncekiler\frm15.resx">
       <DependentUpon>frm15.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm2.resx">
+    <EmbeddedResource Include="oncekiler\frm2.resx">
       <DependentUpon>frm2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm22.resx">
+    <EmbeddedResource Include="oncekiler\frm22.resx">
       <DependentUpon>frm22.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm3.resx">
+    <EmbeddedResource Include="oncekiler\frm3.resx">
       <DependentUpon>frm3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm4.resx">
+    <EmbeddedResource Include="oncekiler\frm4.resx">
       <DependentUpon>frm4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm5.resx">
+    <EmbeddedResource Include="oncekiler\frm5.resx">
       <DependentUpon>frm5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm500.resx">
+    <EmbeddedResource Include="oncekiler\frm500.resx">
       <DependentUpon>frm500.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm6.resx">
+    <EmbeddedResource Include="oncekiler\frm6.resx">
       <DependentUpon>frm6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm7.resx">
+    <EmbeddedResource Include="oncekiler\frm7.resx">
       <DependentUpon>frm7.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm8.resx">
+    <EmbeddedResource Include="oncekiler\frm8.resx">
       <DependentUpon>frm8.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm9.resx">
+    <EmbeddedResource Include="oncekiler\frm9.resx">
       <DependentUpon>frm9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLamba.resx">
+    <EmbeddedResource Include="oncekiler\frmLamba.resx">
       <DependentUpon>frmLamba.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmZeyneb.resx">
+    <EmbeddedResource Include="oncekiler\frmZeyneb.resx">
       <DependentUpon>frmZeyneb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_3_7_4.resx">
       <DependentUpon>frm_3_7_4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_3_7_5.resx">
+    <EmbeddedResource Include="oncekiler\frm_3_7_5.resx">
       <DependentUpon>frm_3_7_5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_3_8_1.resx">
+    <EmbeddedResource Include="oncekiler\frm_3_8_1.resx">
       <DependentUpon>frm_3_8_1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_3_8_2.resx">
+    <EmbeddedResource Include="oncekiler\frm_3_8_2.resx">
       <DependentUpon>frm_3_8_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\uygulama.Form1.resources" />
@@ -330,7 +376,7 @@
     <EmbeddedResource Include="obj\Debug\uygulama.frm9.resources" />
     <EmbeddedResource Include="obj\Debug\uygulama.frmLamba.resources" />
     <EmbeddedResource Include="obj\Debug\uygulama.Properties.Resources.resources" />
-    <EmbeddedResource Include="ornek_3_7_1.resx">
+    <EmbeddedResource Include="oncekiler\ornek_3_7_1.resx">
       <DependentUpon>ornek_3_7_1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
